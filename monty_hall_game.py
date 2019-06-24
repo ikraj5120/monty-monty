@@ -14,7 +14,7 @@ if user_choice==prize:
         print(f"\nBehind door {remaining} is a Goat....")
         print("\nOops! You have lost. Try again....")
     else:
-        print("\nBehind door {user_choice} is a Car....")
+        print(f"\nBehind door {user_choice} is a Car....")
         print("\nCongratulations! You have won...")
 else:
     doors.remove(user_choice)
@@ -27,4 +27,4 @@ else:
         print("\nCongratulations! You have won...")
     else:
         print(f"Behind door {user_choice} is a Goat....")
-        print("Oops! You have lost. Try again....")
+        print("\nOops! You have lost. Try again....")
