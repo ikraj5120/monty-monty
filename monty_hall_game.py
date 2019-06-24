@@ -1,7 +1,6 @@
 import random
 doors = [1,2,3]
 prize = random.choice(doors)
-print(prize)
 user_choice = int(input("Enter your choice (1,2,3): "))
 if user_choice==prize:
     doors.remove(user_choice)
